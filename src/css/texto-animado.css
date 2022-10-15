@@ -1,0 +1,21 @@
+.nome{
+    color: rgba(255, 255, 255, .1);
+    background: linear-gradient(to right, rgba(76, 217, 105), rgba(52, 170, 220), rgba(88, 86, 217), rgba(255, 45, 83), rgba(255, 45, 83), rgba(88, 86, 217), rgba(52, 170, 220),rgb(0, 238, 255), rgb(0, 255, 179), rgb(145, 255, 0), rgb(217, 255, 0), rgb(255, 196, 0), rgba(76, 217, 105));
+    background-size: 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 10rem;
+    text-align: left;
+    animation: sTransition 10s linear infinite;
+}
+
+@keyframes sTransition{
+    0%{
+        background-position: 0%;
+    }
+
+    100%{
+        background-position: 400%;
+    }
+}
