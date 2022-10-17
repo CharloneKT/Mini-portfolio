@@ -40,11 +40,13 @@ body{
 
 .cartao .minhas-informacoes .nome{
     font-size: 30px;
+    text-align: center;
 }
 
 .cartao .minhas-informacoes .cargo{
     font-size: 20px;
     color: #fff;
+    text-align: center;
 }
 
 .cartao .conteudo{
