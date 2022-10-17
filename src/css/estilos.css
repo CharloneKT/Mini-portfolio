@@ -145,7 +145,7 @@ body{
 
      .cartao .minhas-informacoes .nome:hover{
         font-size: 36px;
-         text-align: center;
+        text-align: center;
     }
 
     .cartao .minhas-informacoes .cargo{
