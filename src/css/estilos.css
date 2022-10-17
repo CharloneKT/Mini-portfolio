@@ -42,19 +42,9 @@ body{
     font-size: 30px;
 }
 
-.cartao .minhas-informacoes .nome:hover:active{
-    font-size: 36px;
-}
-
 .cartao .minhas-informacoes .cargo{
     font-size: 20px;
-    color: #c0c0c0;
-}
-
-.cartao .minhas-informacoes .cargo:hover:active{
-    font-size: 23px;
-    color: #ffffff;
-
+    color: #fff;
 }
 
 .cartao .conteudo{
@@ -63,11 +53,6 @@ body{
 
 .cartao .abas{
     display: flex;
-}
-
-li:hover:active img{
-    width: 25px;
-    height: 25px;
 }
 
 .cartao .abas .aba{
@@ -85,10 +70,6 @@ li:hover:active img{
 
 .cartao .informacoes-abas{
     background-color: #070647d3;
-}
-
-.cartao .abas .aba:hover:active{
-    background-color: #161549cb;
 }
 
 .informacoes-abas .informacao{
@@ -112,13 +93,12 @@ li:hover:active img{
     font-size: 20px;
     max-height: 180px;
     overflow-y: auto;
-    padding-right: 15px;
+    padding-right: 5px;
 }
 
 .informacoes-abas .descricao span{
     color: #ffbb00;
 }
-
 
 /*redes sociais*/
 
@@ -141,10 +121,6 @@ li:hover:active img{
     transition: opacity 0.3s ease-in-out;
 }
 
-.redes-sociais li a:hover:active{
-    opacity: 0.8;
-}
-
 .redes-sociais .curriculo{
     background-color: #ffbb00;
 }
@@ -161,3 +137,36 @@ li:hover:active img{
     background-color: #0003b3;
 }
 
+
+
+@media (hover: hover){
+
+     .cartao .minhas-informacoes .nome:hover{
+        font-size: 36px;
+    }
+
+    .cartao .minhas-informacoes .cargo{
+        font-size: 20px;
+        color: #c0c0c0;
+    }
+
+    .cartao .minhas-informacoes .cargo:hover{
+        font-size: 23px;
+        color: #ffffff;
+    
+    }
+
+    li.aba:active img{
+        width: 25px;
+        height: 25px;
+    }  
+
+    .cartao .abas .aba:hover{
+        background-color: #161549cb;
+    }
+
+    .redes-sociais li a:hover{
+        opacity: 0.8;
+        font-size: 15px;
+    }
+}
