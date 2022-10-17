@@ -42,7 +42,7 @@ body{
     font-size: 30px;
 }
 
-.cartao .minhas-informacoes .nome:hover{
+.cartao .minhas-informacoes .nome:hover:active{
     font-size: 36px;
 }
 
@@ -51,7 +51,7 @@ body{
     color: #c0c0c0;
 }
 
-.cartao .minhas-informacoes .cargo:hover{
+.cartao .minhas-informacoes .cargo:hover:active{
     font-size: 23px;
     color: #ffffff;
 
@@ -65,7 +65,7 @@ body{
     display: flex;
 }
 
-li:hover img{
+li:hover:active img{
     width: 25px;
     height: 25px;
 }
@@ -87,7 +87,7 @@ li:hover img{
     background-color: #070647d3;
 }
 
-.cartao .abas .aba:hover{
+.cartao .abas .aba:hover:active{
     background-color: #161549cb;
 }
 
@@ -141,7 +141,7 @@ li:hover img{
     transition: opacity 0.3s ease-in-out;
 }
 
-.redes-sociais li a:hover{
+.redes-sociais li a:hover:active{
     opacity: 0.8;
 }
 
