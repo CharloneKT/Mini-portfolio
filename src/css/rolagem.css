@@ -6,6 +6,7 @@
   
   /* Works on Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
+    display: fixed;
     width: 12px;
   }
   
