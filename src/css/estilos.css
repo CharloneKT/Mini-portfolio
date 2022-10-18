@@ -100,10 +100,6 @@ body{
     font-size: 20px;
     max-height: 180px;
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    -webkit-transform: translate3d(0,0,0);
-    padding-right: 5px;
-    z-index: 3;
 }
 
 .informacoes-abas .descricao span{
@@ -119,9 +115,6 @@ body{
     align-items: center;
     max-height: 180px;
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    -webkit-transform: translate3d(0,0,0);
-    z-index: 3;
 }
 
 .redes-sociais li a{
